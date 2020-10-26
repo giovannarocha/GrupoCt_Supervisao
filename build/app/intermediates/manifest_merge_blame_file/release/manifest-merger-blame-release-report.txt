@@ -1,0 +1,233 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="grupoctsupervisao.grupoct_supervisao"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:34:5-79
+11-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:34:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:35:5-81
+12-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:35:22-78
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[:connectivity] C:\Users\rafae\flutter_projects\grupoct_supervisao\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:7:5-79
+13-->[:connectivity] C:\Users\rafae\flutter_projects\grupoct_supervisao\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[:connectivity] C:\Users\rafae\flutter_projects\grupoct_supervisao\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:8:5-76
+14-->[:connectivity] C:\Users\rafae\flutter_projects\grupoct_supervisao\build\connectivity\intermediates\library_manifest\release\AndroidManifest.xml:8:22-73
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:image_picker] C:\Users\rafae\flutter_projects\grupoct_supervisao\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:7:5-80
+15-->[:image_picker] C:\Users\rafae\flutter_projects\grupoct_supervisao\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Required permission for App measurement to run. -->
+16-->[:image_picker] C:\Users\rafae\flutter_projects\grupoct_supervisao\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:8:5-81
+16-->[:image_picker] C:\Users\rafae\flutter_projects\grupoct_supervisao\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:23:5-67
+17-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:23:22-64
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:25:5-68
+18-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:25:22-65
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:26:22-107
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+20-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+21    <!--
+22 io.flutter.app.FlutterApplication is an android.app.Application that
+23         calls FlutterMain.startInitialization(this); in its onCreate method.
+24         In most cases you can leave this as-is, but you if you want to provide
+25         additional functionality it is fine to subclass or reimplement
+26         FlutterApplication and put your custom class here.
+27    -->
+28    <application
+28-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:8:5-33:19
+29        android:name="io.flutter.app.FlutterApplication"
+29-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:9:9-57
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.2.0] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\35f29bb1a578f0319e9c3e21730b6b49\core-1.2.0\AndroidManifest.xml:24:18-86
+31        android:icon="@mipmap/launcher_icon"
+31-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:11:9-45
+32        android:label="grupoct_supervisao" >
+32-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:10:9-43
+33        <activity
+33-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:12:9-23:20
+34            android:name="grupoctsupervisao.grupoct_supervisao.MainActivity"
+34-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:13:13-41
+35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:16:13-163
+36            android:hardwareAccelerated="true"
+36-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:17:13-47
+37            android:launchMode="singleTop"
+37-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:14:13-43
+38            android:theme="@style/LaunchTheme"
+38-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:15:13-47
+39            android:windowSoftInputMode="adjustResize" >
+39-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:18:13-55
+40            <intent-filter>
+40-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:19:13-22:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:20:17-68
+41-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:20:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:21:17-76
+43-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:21:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:24:17-27:71
+47            android:name="com.yalantis.ucrop.UCropActivity"
+47-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:25:13-60
+48            android:screenOrientation="portrait"
+48-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:26:13-49
+49            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+49-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:27:13-69
+50        <!--
+51             Don't delete the meta-data below.
+52             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+53        -->
+54        <meta-data
+54-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:30:9-32:33
+55            android:name="flutterEmbedding"
+55-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:31:13-44
+56            android:value="2" />
+56-->C:\Users\rafae\flutter_projects\grupoct_supervisao\android\app\src\main\AndroidManifest.xml:32:13-30
+57
+58        <provider
+58-->[:image_picker] C:\Users\rafae\flutter_projects\grupoct_supervisao\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:9-19:20
+59            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+59-->[:image_picker] C:\Users\rafae\flutter_projects\grupoct_supervisao\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:12:13-82
+60            android:authorities="grupoctsupervisao.grupoct_supervisao.flutter.image_provider"
+60-->[:image_picker] C:\Users\rafae\flutter_projects\grupoct_supervisao\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-74
+61            android:exported="false"
+61-->[:image_picker] C:\Users\rafae\flutter_projects\grupoct_supervisao\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
+62            android:grantUriPermissions="true" >
+62-->[:image_picker] C:\Users\rafae\flutter_projects\grupoct_supervisao\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:15:13-47
+63            <meta-data
+63-->[:image_picker] C:\Users\rafae\flutter_projects\grupoct_supervisao\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:16:13-18:75
+64                android:name="android.support.FILE_PROVIDER_PATHS"
+64-->[:image_picker] C:\Users\rafae\flutter_projects\grupoct_supervisao\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:17:17-67
+65                android:resource="@xml/flutter_image_picker_file_paths" />
+65-->[:image_picker] C:\Users\rafae\flutter_projects\grupoct_supervisao\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:18:17-72
+66        </provider>
+67
+68        <receiver
+68-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:29:9-33:20
+69            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+69-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:30:13-85
+70            android:enabled="true"
+70-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:31:13-35
+71            android:exported="false" >
+71-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:32:13-37
+72        </receiver>
+73        <receiver
+73-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:34:9-42:20
+74            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+74-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:35:13-100
+75            android:enabled="true"
+75-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:36:13-35
+76            android:exported="true"
+76-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:37:13-36
+77            android:permission="android.permission.INSTALL_PACKAGES" >
+77-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:38:13-69
+78            <intent-filter>
+78-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:39:13-41:29
+79                <action android:name="com.android.vending.INSTALL_REFERRER" />
+79-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:40:17-79
+79-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:40:25-76
+80            </intent-filter>
+81        </receiver>
+82
+83        <service
+83-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:44:9-47:40
+84            android:name="com.google.android.gms.measurement.AppMeasurementService"
+84-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:45:13-84
+85            android:enabled="true"
+85-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:46:13-35
+86            android:exported="false" />
+86-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:47:13-37
+87        <service
+87-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:48:9-52:72
+88            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+88-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:49:13-87
+89            android:enabled="true"
+89-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:50:13-35
+90            android:exported="false"
+90-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:51:13-37
+91            android:permission="android.permission.BIND_JOB_SERVICE" />
+91-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:52:13-69
+92        <service
+92-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:27:9-33:19
+93            android:name="com.google.firebase.components.ComponentDiscoveryService"
+93-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:28:13-84
+94            android:directBootAware="true"
+94-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\260d41b09382aec29f9ced5f62a9712b\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+95            android:exported="false" >
+95-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:29:13-37
+96            <meta-data
+96-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:30:13-32:85
+97                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+97-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+100                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+100-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+102        </service>
+103
+104        <receiver
+104-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+105            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+105-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+106            android:exported="true"
+106-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+107            android:permission="com.google.android.c2dm.permission.SEND" >
+107-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+108            <intent-filter>
+108-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+109                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+109-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+109-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+110            </intent-filter>
+111        </receiver>
+112
+113        <activity
+113-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\c74e9d76b9181d3585ba58111e512b89\play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
+114            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+114-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\c74e9d76b9181d3585ba58111e512b89\play-services-base-17.2.1\AndroidManifest.xml:24:13-79
+115            android:exported="false"
+115-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\c74e9d76b9181d3585ba58111e512b89\play-services-base-17.2.1\AndroidManifest.xml:25:13-37
+116            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+116-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\c74e9d76b9181d3585ba58111e512b89\play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+117
+118        <provider
+118-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\260d41b09382aec29f9ced5f62a9712b\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+119            android:name="com.google.firebase.provider.FirebaseInitProvider"
+119-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\260d41b09382aec29f9ced5f62a9712b\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+120            android:authorities="grupoctsupervisao.grupoct_supervisao.firebaseinitprovider"
+120-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\260d41b09382aec29f9ced5f62a9712b\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+121            android:exported="false"
+121-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\260d41b09382aec29f9ced5f62a9712b\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+122            android:initOrder="100" />
+122-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\260d41b09382aec29f9ced5f62a9712b\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+123
+124        <meta-data
+124-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\7f2f9af78bf01fcf44c336aebb25cb65\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+125            android:name="com.google.android.gms.version"
+125-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\7f2f9af78bf01fcf44c336aebb25cb65\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+126            android:value="@integer/google_play_services_version" />
+126-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\rafae\.gradle\caches\transforms-2\files-2.1\7f2f9af78bf01fcf44c336aebb25cb65\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+127    </application>
+128
+129</manifest>

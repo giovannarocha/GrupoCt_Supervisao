@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "628489049402",
+    "firebase_url": "https://app-supervisao.firebaseio.com",
+    "project_id": "app-supervisao",
+    "storage_bucket": "app-supervisao.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628489049402:android:840f79b61df1834b79ac03",
+        "android_client_info": {
+          "package_name": "grupoctsupervisao.grupoct_supervisao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628489049402-idn58sl8j55vl8djlh9ccuipu5oid9ru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu_rwn0yPP7XxOdLW6MNV0Eyrr5IFx8co"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628489049402-idn58sl8j55vl8djlh9ccuipu5oid9ru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
